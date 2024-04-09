@@ -1,0 +1,90 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: pink;
+    /* background-image: url('backround.jpg'); */
+    background-size: cover;
+    /* color: black; */
+  }
+  
+   h6 {
+    color: black;
+  } 
+  h2{margin-left: 139px;
+  color:white
+  }
+  h3{margin-top: 100px;color:white}
+  h4 {
+    border: 2px solid black; /* Устанавливаем контур шириной 2 пикселя и черного цвета */
+    padding: 5px; /* Добавляем небольшой отступ между контуром и текстом */
+    display: inline-block; /* Позволяет контуру обводить только текст, а не весь блок */
+  }
+  header{background-color: white;}
+  h7{color:black}
+  
+  main {
+    flex: 1;
+  background-color: pink;
+  }
+  
+  button {
+    position: central;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 100px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  button1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3eb489;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  tr{color:white}
+  .guide-img {
+    width: 80px;
+  }
+  
+  
+  footer {
+    flex-shrink: 0;
+    background-color: pink;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .about-section div {
+    width: 48%;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 10px;
+  }
+  li{color:black}
+  
+  .map {
+    display: column;
+    flex-direction: row;
+    margin-left: 139px;
+  
+    width: 83.8%;
+    height: 350px;
+  }
+  /* label{color:black}
+  class-row{color:orange} */
